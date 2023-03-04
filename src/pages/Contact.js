@@ -1,7 +1,7 @@
 import React from "react";
 
 function Contact() {
-  return <p>this is the Contact</p>;
+  return <p>This is the Contact Page</p>;
 }
 
 export default Contact;
