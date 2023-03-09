@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./style.css";
 
 class Contact extends Component {
   // Setting the component's initial state
@@ -38,7 +39,12 @@ class Contact extends Component {
   render() {
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
-      <div>
+      <body>
+        <h1>Contact</h1>
+        <p>Jose Alonso</p>
+        <p><a href="mailto:jose.m.alonso.g@gmail.com" target="_blank">jose.m.alonso.g@gmail.com</a></p>
+        <p><a href="www.github.com/tutquele">github/turquele</a></p>
+        <p>Please contact me by e-mail or by the contact form.</p>
         <form className="form">
           <input
             value={this.state.firstName}
@@ -77,7 +83,7 @@ class Contact extends Component {
           />
           <button onClick={this.handleFormSubmit}>Submit</button>
         </form>
-      </div>
+      </body>
     );
   }
 }
