@@ -39,7 +39,7 @@ class Contact extends Component {
   render() {
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
-      <body>
+      <div>
         <h1>Contact</h1>
         <p>Jose Alonso</p>
         <p><a href="mailto:jose.m.alonso.g@gmail.com" target="_blank">jose.m.alonso.g@gmail.com</a></p>
@@ -83,7 +83,7 @@ class Contact extends Component {
           />
           <button onClick={this.handleFormSubmit}>Submit</button>
         </form>
-      </body>
+      </div>
     );
   }
 }

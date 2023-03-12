@@ -11,7 +11,7 @@ import Project from './components/Project';
 function App() {
   return (
     <Router>
-      <div>
+      <body>
         <Header />
         {/* Wrap Route elements in a Routes component */}
         <Routes>
@@ -23,7 +23,7 @@ function App() {
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
         </Routes>
-      </div>
+      </body>
     </Router>
   );
 }

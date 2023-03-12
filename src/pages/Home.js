@@ -3,10 +3,10 @@ import "./style.css";
 
 function Home() {
   return (
-    <body>
+    <div>
       <p>I am a Front end developer</p>
       <p>Welcome to my portfolio website</p>
-    </body>
+    </div>
   )
 }
 
