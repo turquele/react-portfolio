@@ -39,9 +39,13 @@ class Contact extends Component {
   render() {
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
-      <div>
-        <h1>Contact</h1>
-        <p>Jose Alonso</p>
+      <div id="content-wrapper">
+        <section className="full-height px-lg-5">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8">
+            <h1 className="display-4 fw-bold">Contact</h1>
+        
         <p><a href="mailto:jose.m.alonso.g@gmail.com" target="_blank">jose.m.alonso.g@gmail.com</a></p>
         <p><a href="www.github.com/tutquele">github/turquele</a></p>
         <p>Please contact me by e-mail or by the contact form.</p>
@@ -83,6 +87,10 @@ class Contact extends Component {
           />
           <button onClick={this.handleFormSubmit}>Submit</button>
         </form>
+        </div>
+        </div>
+      </div>
+    </section>
       </div>
     );
   }
