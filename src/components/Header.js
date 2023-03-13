@@ -4,7 +4,7 @@ import myself from "../assets/images/me.JPG"
 function Header() {
   return (
   <header className="container-fluid">
-    <nav className="navbar navbar-expand-lg navbar-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
   <div className="container flex-lg-column">
     <a className="navbar-brand mb-lg-4 mx-lg-auto" href="#Home"><span className="h3 fw-bold d-block d-lg-none">Jose Alonso</span>
     <img src={myself} className="d-none d-lg-block rounded-circle" alt="me"></img>
