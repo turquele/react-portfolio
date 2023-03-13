@@ -44,12 +44,11 @@ class Contact extends Component {
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
-            <h1 className="display-4 fw-bold">Contact</h1>
         
-        <p><a href="mailto:jose.m.alonso.g@gmail.com" target="_blank">jose.m.alonso.g@gmail.com</a></p>
-        <p><a href="www.github.com/tutquele">github/turquele</a></p>
-        <p>Please contact me by e-mail or by the contact form.</p>
-        <form className="form">
+        <p><a href="mailto:jose.m.alonso.g@gmail.com" target="_blank" className="link-custom">jose.m.alonso.g@gmail.com</a></p>
+        <p><a href="http://www.github.com/turquele" target="_blank" className="link-custom">github/turquele</a></p>
+        <p>Please contact me by e-mail or by the following contact form:</p>
+        <form className="form row g-lg-3">
           <input
             value={this.state.firstName}
             name="firstName"
@@ -85,7 +84,7 @@ class Contact extends Component {
             type="text"
             placeholder="Your message"
           />
-          <button onClick={this.handleFormSubmit}>Submit</button>
+          <button className="btn btn-brand me-3" onClick={this.handleFormSubmit}>Submit</button>
         </form>
         </div>
         </div>
